@@ -8,7 +8,7 @@ export default defineConfig({
         minify: "esbuild",
         lib: {
             entry: resolve(__dirname, './src/index.ts'),
-            name: 'aieditor',
+            name: 'aieditorplus',
             // fileName: (format) => `index.${format}.js`,
             fileName: `index`,
             formats: ['es', 'cjs']
